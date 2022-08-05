@@ -14,4 +14,8 @@ export class SideBarComponent{
     return this.gifs.historialBusqueda;
   }
 
+  mostrarGifsSidebar(argumento:string){
+    this.gifs.guardaHistorial(argumento);
+  }
+
 }
